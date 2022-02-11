@@ -1,0 +1,118 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+	 background-color:floralwhite;
+}
+.container{
+	max-width:1000px;
+	background-color:aqua;
+	margin:0 auto;
+	padding:10px;
+}
+.myProfile{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	padding:10px;
+	float:left;
+}
+.profile-bio{ 
+	float:left;
+	padding-top:40px;
+	padding-left:10px;}
+h1,h2,h4{
+	color:crimson;
+}
+p{font-size:16px;}
+.contact-address{
+	float:right;
+	padding-top:50px;
+}
+
+.contact-address a{
+	text-decoration:none;
+	font-size:17px;
+}
+.contact-address a:hover{
+	color:crimson;
+	text-decoration:underline;
+}
+.float-clear{
+	clear:both;
+}
+hr{
+	width:100%;
+    border-top:solid 3px blue;
+	margin-bottom:0px;
+	margin-top:20px;
+}
+/* Introduction section end here */
+
+.common{
+	border-top:solid 1px blue;
+}
+
+
+.clear-div2{
+	clear:both;
+}
+
+#sectionOne{
+	margin-top:10px;
+}
+.leftPart{
+		max-width:30%;
+	float:left;
+	text-align:justify;
+}
+.rightPart{
+	max-width:70%;
+	float:right;
+	text-align:justify;
+}
+.rightPart p{
+	margin-top:5px;
+}
+	
+.rightsideof-edu{
+	max-width:30%;
+	float:left;
+}
+.leftsideof-edu{
+	max-width:70%;
+	float:right;
+}
+	
+.BBA-section{
+	max-width:45%;
+	float:left;
+}
+.MBA-section{
+	max-width:45%;
+	float:right;
+}
+.footer-div{
+	background-color:red;
+	width:100%;
+	height:100px;
+}
+.footer-div a{
+	text-align:center;
+	color:white;
+	font-size:20px;
+	padding:20px;
+	text-decoration:none;
+}
+.footer-div a:hover{
+	color:black;
+	text-decoration:underline;
+}
+.footer-div p{
+	text-align:center;
+	color:white;
+	font-size:20px;
+		margin-top:20px;
+}
